@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Navbar Component renders navbar correctly when user is not logged in 1`] = `
+<div>
+  <div
+    class="navbar"
+    data-testid="navbar"
+  >
+    <div
+      class="navbar__brand"
+      data-testid="navbar-brand"
+      id="title"
+    />
+    <div
+      class="navbar__right"
+    >
+      <button
+        class="navbar__button navbar__button--primary"
+      >
+        Sign In
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,16 @@
+@keyframes identifier {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.produk__content__skeleton {
+  /* ... styling container ... */
+  animation: identifier 1.5s infinite ease-in-out;
+  
+  &__image, &__name, &__category, &__price {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+  }
+  // Detail ukuran ada di kode sebelumnya
+}

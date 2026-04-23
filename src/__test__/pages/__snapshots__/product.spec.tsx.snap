@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Product Page renders product page correctly with products 1`] = `
+<div>
+  <div
+    class="produk"
+    data-testid="product-page"
+  >
+    <h1
+      class="produk__title"
+      data-testid="product-title"
+    >
+      Daftar Produk
+    </h1>
+    <div
+      class="produk__content"
+      data-testid="product-content"
+    >
+      <a
+        href="/produk/1"
+      >
+        <div
+          class="produk__content__item__image"
+        >
+          <img
+            alt="Product 1"
+            height="200"
+            src="https://example.com/image1.jpg"
+            width="200"
+          />
+        </div>
+        <h4
+          class="produk__content__item__name"
+        >
+          Product 1
+        </h4>
+        <p
+          class="produk__content__item__category"
+        >
+          Category 1
+        </p>
+        <p
+          class="produk__content__item__price"
+        >
+          Rp 
+          100.000
+        </p>
+      </a>
+      <a
+        href="/produk/2"
+      >
+        <div
+          class="produk__content__item__image"
+        >
+          <img
+            alt="Product 2"
+            height="200"
+            src="https://example.com/image2.jpg"
+            width="200"
+          />
+        </div>
+        <h4
+          class="produk__content__item__name"
+        >
+          Product 2
+        </h4>
+        <p
+          class="produk__content__item__category"
+        >
+          Category 2
+        </p>
+        <p
+          class="produk__content__item__price"
+        >
+          Rp 
+          200.000
+        </p>
+      </a>
+    </div>
+  </div>
+</div>
+`;
